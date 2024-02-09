@@ -1,0 +1,15 @@
+
+    #mainPic{
+        width: 60vw;
+        height: 70vh;
+        border: 2px solid grey;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        width: 60vw;
+        height: 30vh;
+        background-image: url("logo.png");
+        background-size: cover;
+    }

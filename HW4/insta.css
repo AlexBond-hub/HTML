@@ -1,15 +1,80 @@
-
-    #mainPic{
-        width: 60vw;
-        height: 70vh;
-        border: 2px solid grey;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .logo{
-        width: 60vw;
-        height: 30vh;
-        background-image: url("logo.png");
-        background-size: cover;
-    }
+body{
+    overflow: hidden;
+}
+.fon{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 40vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gray;
+}
+footer{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+}
+input[type="text"],
+input[type="password"]{
+    width: 60%;
+    height: 8%;
+    text-overflow: ellipsis;
+    border-radius: 3px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    width: 60%;
+    height: 8%;
+    border-radius: 8px;
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #043294;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin: -10px;
+}
+div{
+    width: 45%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    width: 90%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer a{
+    color: #1f8fdb;
+}
+header{
+    width: 45%;
+    height: 20%;
+}

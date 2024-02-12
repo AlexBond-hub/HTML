@@ -1,0 +1,69 @@
+div{
+    width: 20vw;
+    height: 50vh;
+    background: rgba(217, 217, 217, 0.30);
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.container,.container2{
+    border: 4px solid #554C4C;
+    position: relative;
+}
+.container1{
+    border: 4px solid #65856E;
+    position: relative;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+.container p{
+    width: 80%;
+    margin-top: 0;
+}
+.container1 p{
+    width: 80%;
+    margin-top: 0;
+}
+.container2 p{
+    width: 80%;
+    margin-top: 0;
+}
+h2{
+    margin-bottom: 0;
+}
+.stik{
+    width: 5vw;
+    height: 12vh;
+    border-radius: 50%;
+    border: 4px solid #554C4C;
+    background-color: white;
+    position: absolute;
+    margin-top: -370px;
+}
+.stik1{
+    width: 5vw;
+    height: 12vh;
+    border-radius: 50%;
+    border: 4px solid #65856E;
+    background-color: white;
+    position: absolute;
+    margin-top: -370px;
+}
+.stik2{
+    width: 5vw;
+    height: 12vh;
+    border-radius: 50%;
+    border: 4px solid #554C4C;
+    background-color: white;
+    position: absolute;
+    margin-top: -370px;
+}
